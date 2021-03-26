@@ -7,7 +7,7 @@ const argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
  */
 function buttonClicked(argButtonName) {
   clearMessages();
-  console.log(argButtonName + ' został kliknięty');
+  console.log(argButtonName + ' został kliknięty')};
   
   const argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
 
@@ -26,7 +26,7 @@ function buttonClicked(argButtonName) {
       printMessage('Nie znam ruchu o id ' + argMoveId + '. Zakładam, że chodziło o "kamień".');
       return 'kamień';
     }
-  }
+  
   
   /**
    * Describe this function...
